@@ -10,6 +10,11 @@
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <style>
     /* Remove the navbar's default margin-bottom and rounded borders */
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
 
     .carousel {
       width: 60%;
@@ -125,7 +130,7 @@
         <img class="profile" src="arquivos/image.jpg">
       </div>
       <h1>Desenvolvedor WEB e Mobile</h1>
-      <p style="color: dimgray;">jacksonwellington.sa@gmail.com  |  (84) 99446-3807</p>
+      <p style="color: dimgray;">jacksonwellington.sa@gmail.com | (84) 99446-3807</p>
       <p>Conhecimentos em Node.js, PHP, React Native, Flutter, Java e integração com banco
         de dados MySQL e SQLite, tenho pequenas experiências como DEVOPS.</p>
       <button class="btn btn-outline-primary my-2 my-sm-0">
@@ -174,10 +179,13 @@
     <div class="card-body">
       <p class="card-text" style="text-align: justify;">
 
-        Constantimente exploro as informações sobre tecnologias de inteligência artificial e como podem mudar o mundo ao nosso redor, seguindo essa noção pretendo 
-        futuramente ler o livro Inteligência Artificial de Kai-fu lee, para obter maiores e mais diversificados conceitos sobre a Inteligência Artificial.
+        Constantimente exploro as informações sobre tecnologias de inteligência artificial e como podem mudar o mundo ao
+        nosso redor, seguindo essa noção pretendo
+        futuramente ler o livro Inteligência Artificial de Kai-fu lee, para obter maiores e mais diversificados
+        conceitos sobre a Inteligência Artificial.
         Busco novas oportunidades com a finalidade de melhorar minhas habilidades e exeperiencias. Além de poder
-        vivênciar novos contextos de desafios que eu possa cada vez evoluir profissionalmente e socialmente, para contribuir com o
+        vivênciar novos contextos de desafios que eu possa cada vez evoluir profissionalmente e socialmente, para
+        contribuir com o
         desenvolvimento.
 
       </p>
@@ -192,6 +200,109 @@
   <div class="container-fluid bg-3 text-center">
 
     <h3 class="py-4">Experiências</h3>
+    <div id="carouselTodo" class="container carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="ToDO/Captura de Tela 1.png" alt="Primeiro Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="ToDO/Captura de Tela 2.png" alt="Segundo Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="ToDO/Captura de Tela 3.png" alt="Terceiro Slide">
+        </div>
+
+      </div>
+      <div>
+        <a class="carousel-control-prev" href="#carouselTodo" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselTodo" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a></div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Aplicação WEB e Mobile - ToDO</h5>
+          <p class="card-text" style="max-width: 800px;">
+            <p>
+              <strong>Tecnologias:</strong>
+              Node JS, React Native, React JS, Styled Components, MongoDB e API REST.
+            </p>
+            <p style="text-align: justify;">
+              Desenvolvimento de uma aplicação WEB e MOBILE para organização de tarefas.
+              O usuário pode adicionar, atualizar e remover suas tarefas, além de sicronizar
+              as tarefas do app para aplicação WEB por meio de um QrCode, tornando mais versátil
+              a usuabilidade. O sistema ainda conta com funcionalidades de filtros de tarefas, que pode ser
+              por ano, mês, dia... E notificação de tarefas atrasadas.
+
+            </p>
+          </p>
+        </div>
+      </div>
+    </div>
+    <br>
+
+
+
+
+
+
+
+    <div id="carouselOmniStack" class="container carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="Semana Omnistack/img1.png" alt="Primeiro Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="Semana Omnistack/img2.png" alt="Segundo Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="Semana Omnistack/img3.jpg" alt="Terceiro Slide">
+        </div>
+
+      </div>
+      <div>
+        <a class="carousel-control-prev" href="#carouselOmniStack" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselOmniStack" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a></div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Aplicação WEB e Mobile - Semana Omnistack</h5>
+          <p class="card-text" style="max-width: 800px;">
+            <p>
+              <strong>Tecnologias:</strong>
+              Node JS, React Native, React JS, SQLite, CSS, API REST e Testes automatizados.
+            </p>
+            <p style="text-align: justify;">
+              Durante a semana Omnistack ministrada pelo Diego Fernandes, foram desenvolvidos projetos
+              utilizandos as tecnologias Node JS, React JS e React Native.
+              O projeto trata-se de um sistema destinado a ONGS, para que elas possam atribuir casos e
+              pedir doação para ajudar no caso.
+              Utilizado NodeJS no backend, foi densenvolvido a API REST FULL para
+              deixar versátil e integro o acesso aos dados pelo frontend.
+              O sistema realiza a autenticação do usuário e da ONG, através de um cadastro. Além de adicionar
+              e apresentar os casos que acontecem.
+              O usuário pode entrar em contanto com a ONG através do app mobile que possui botões especificos
+              que redireciona para o Whatsapp ou e-mail, com mensagens pré definidas pelo sistema e de maneira
+              automática.
+
+            </p>
+          </p>
+        </div>
+      </div>
+    </div>
+    <br>
+
+
+
+
     <div id="carouselFreelancer" class="container carousel slide carousel-fade" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -238,56 +349,6 @@
               página principal foi desenvolvido
               pela <b>StartBootstrap</b>, atribuido e modificado a página, ademais as páginas foram todas desenvolvidas
               por mim utilizando as tecnologias CSS e Bootstrap.
-            </p>
-          </p>
-        </div>
-      </div>
-    </div>
-    <br>
-
-
-    <div id="carouselOmniStack" class="container carousel slide carousel-fade" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="Semana Omnistack/img1.png" alt="Primeiro Slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="Semana Omnistack/img2.png" alt="Segundo Slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="Semana Omnistack/img3.jpg" alt="Terceiro Slide">
-        </div>
-
-      </div>
-      <div>
-        <a class="carousel-control-prev" href="#carouselOmniStack" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Anterior</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselOmniStack" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Próximo</span>
-        </a></div>
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Aplicação WEB e Mobile - Semana Omnistack</h5>
-          <p class="card-text" style="max-width: 800px;">
-            <p>
-              <strong>Tecnologias:</strong>
-              Node JS, React Native, React JS, SQLite, CSS, API REST e Testes.
-            </p>
-            <p style="text-align: justify;">
-              Durante a semana Omnistack ministrada pelo Diego Fernandes, foram desenvolvidos projetos 
-              utilizandos as tecnologias Node JS, React JS e React Native.
-              O projeto trata-se de um sistema destinado a ONGS, para que elas possam atribuir casos e 
-              pedir doação para ajudar no caso. 
-              Utilizado NodeJS no backend, foi densenvolvido a API REST FULL para 
-              deixar versátil e integro o acesso aos dados pelo frontend.
-              O sistema realiza a autenticação do usuário e da ONG, através de um cadastro. Além de adicionar
-              e apresentar os casos que acontecem.
-              O usuário pode entrar em contanto com a ONG através do app mobile que possui botões especificos
-              que redireciona para o Whatsapp ou e-mail, com mensagens pré definidas pelo sistema e de maneira automática. 
-         
             </p>
           </p>
         </div>
